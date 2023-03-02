@@ -1,0 +1,77 @@
+
+.html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.grid-container{
+    background-color: gray;
+    display: grid;
+    grid-template-areas:'header header header header' ;
+
+
+}
+
+
+.header{
+    grid-area: header;
+    background-color: red;
+    height: 40px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+
+}
+
+.searchbar{
+    grid-area: searchbar;
+
+}
+.item1{
+    grid-area: item1;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button-LoremMore{
+    background-color: white;
+    color: black;
+}
+
+.button-vedio{
+    background-color: red;
+    color: black;
+}
+.button-Books{
+    background-color: orange;
+    color: black;
+}
+
+.kalam{
+    font-size: 25px;
+}
+
+.RtD{
+    font-size: 25px;
+} */
